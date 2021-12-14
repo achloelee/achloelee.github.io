@@ -141,7 +141,6 @@ function responseReceivedHandler(){
     }
 };
 
-//registration key: 085b60a72cc340caad0bec8ae143dafc
 
 for (let i =0; i < sectorNumber.length; i++){
     let xhr = new XMLHttpRequest();
