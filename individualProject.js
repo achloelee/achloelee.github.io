@@ -1,4 +1,5 @@
-var registrationKey = window.prompt("Enter your registration key: ");
+
+var registrationKey = window.prompt("Please sign up for a API registration key at https://www.bls.gov/developers/. Enter your registration key: ");
 let responseCount=0;
 
 const sectorCode ={
