@@ -1,0 +1,45 @@
+
+ body {
+    margin: 0;
+ }
+ .heading {
+     display: flex;
+     flex-grow: 1;
+     justify-content: center;
+ }
+ footer {
+    line-height: 1.25em;
+    background: #30618A;
+    flex-wrap: wrap;
+ }
+
+ img{
+     width:100%;
+     height: auto;
+ }
+
+ .content {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 70%;
+ }
+ .description {
+    flex-grow: 1;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    column-width: 90%;
+ }
+ 
+ .classes {
+    flex-grow: 1;
+    flex-basis: 50%;
+    min-width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-width: 90%;
+ }
+
+ tr:nth-child(even) {background-color:#f2f2f2;}
+
